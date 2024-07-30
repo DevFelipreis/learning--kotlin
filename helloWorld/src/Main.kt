@@ -7,6 +7,10 @@ fun main() {
     val age: Int = 31 // 32-bit (99% do tempo)
     val long: Long = 22222222222222 // 64-bit
     val product: String  = "Imac"
+    var booleano: Boolean = false // 1 byte == 8 bits
+    booleano = true  // 1 byte == 8 bits
+
+    println(price::class)
 
     val nomes = listOf("Felipe", "Eduardo")
     val idades = listOf(31, 1)
@@ -20,5 +24,10 @@ fun main() {
         }
     }
 
-    println(nomes::class)
+    val mediaDePreco = 22
+
+    val resposta = mediaDePreco.toDouble()
+
+    println(resposta)
+
 }
