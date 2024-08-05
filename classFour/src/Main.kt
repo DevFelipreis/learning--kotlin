@@ -14,12 +14,11 @@ fun main() {
     comprimentoEndereco3 = endereco3?.length ?: 0 // operador Elvis
     println(comprimentoEndereco3)
 
-    olaMundo()
+   var funcao:Int = soma(2,3)
+    println(funcao)
 
 }
 
-fun olaMundo(){
-    println("Olá")
-    println("Mundo")
-    println(2+3)
+fun soma(a:Int,b:Int):Int{
+    return a + b
 }
